@@ -36,9 +36,18 @@ Ohne das läuft alles genauso, nur die Bestzeit gilt dann bloß für die aktuell
 
 ## Mit Rojo
 
+Rojo ist über [Aftman](https://github.com/LPGhatguy/aftman) in `aftman.toml` festgelegt.
+Einmalig im Projektordner installieren, danach starten:
+
+```bash
+aftman install
+```
+
 ```bash
 rojo serve
 ```
+
+In Roblox Studio im Rojo-Plugin auf **Connect** klicken.
 
 Die Datei `default.project.json` legt beide Skripte an die richtigen Stellen.
 
