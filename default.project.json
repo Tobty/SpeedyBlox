@@ -1,0 +1,14 @@
+{
+  "name": "Himmelspfad",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "Parcours": { "$path": "src/server/Parcours.server.lua" }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "HUD": { "$path": "src/client/HUD.client.lua" }
+      }
+    }
+  }
+}
