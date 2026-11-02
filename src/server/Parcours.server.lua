@@ -1,5 +1,5 @@
 --[[
-	HIMMELSPFAD – ein Geschicklichkeits-Parcours für Roblox
+	SPEEDYBLOX – ein Geschicklichkeits-Parcours für Roblox
 
 	Dieses Skript baut beim Start den kompletten Parcours selbst auf
 	und steuert alle Fallen, Checkpoints, die Zeitmessung und die Bestzeiten.
@@ -256,7 +256,7 @@ end
 
 -- START ---------------------------------------------------------------
 local startPlattform = plattform(Vector3.new(0, y, 0), Vector3.new(24, 2, 24), FARBEN.Start, Enum.Material.Glass)
-schild(startPlattform, "HIMMELSPFAD", FARBEN.Ziel, 14)
+schild(startPlattform, "SPEEDYBLOX", FARBEN.Ziel, 14)
 neuerCheckpoint(Vector3.new(0, y, -5))
 z = 12
 
@@ -501,7 +501,7 @@ ReplicatedStorage:SetAttribute("AnzahlCheckpoints", #checkpoints - 1)
 ----------------------------------------------------------------------
 
 local speicherOk, speicher = pcall(function()
-	return DataStoreService:GetDataStore("Himmelspfad_Bestzeiten_v1")
+	return DataStoreService:GetDataStore("SpeedyBlox_Bestzeiten_v1")
 end)
 if not speicherOk then
 	speicher = nil
@@ -707,4 +707,4 @@ RunService.Heartbeat:Connect(function()
 	end
 end)
 
-print(("[Himmelspfad] Parcours gebaut: %d Checkpoints, Länge %d Studs"):format(#checkpoints - 1, math.floor(z)))
+print(("[SpeedyBlox] Parcours gebaut: %d Checkpoints, Länge %d Studs"):format(#checkpoints - 1, math.floor(z)))

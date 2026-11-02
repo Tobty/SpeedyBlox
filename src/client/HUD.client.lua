@@ -1,5 +1,5 @@
 --[[
-	HIMMELSPFAD – Anzeige (Stoppuhr, Abschnitt, Tode, Meldungen) und Sprungfelder
+	SPEEDYBLOX – Anzeige (Stoppuhr, Abschnitt, Tode, Meldungen) und Sprungfelder
 
 	Einbau: als LocalScript in StarterPlayer > StarterPlayerScripts legen.
 ]]
@@ -127,7 +127,7 @@ remote.OnClientEvent:Connect(function(art, a, b, c)
 	end
 end)
 
-meldung("Willkommen auf dem HIMMELSPFAD!", Color3.fromRGB(255, 215, 60), 3)
+meldung("Willkommen bei SPEEDYBLOX!", Color3.fromRGB(255, 215, 60), 3)
 
 ----------------------------------------------------------------------
 -- Sprungfelder (auf dem Client, weil der Spieler seine Figur selbst steuert)

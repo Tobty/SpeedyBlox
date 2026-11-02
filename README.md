@@ -1,4 +1,4 @@
-# Himmelspfad – Geschicklichkeits-Parcours für Roblox
+# SpeedyBlox – Geschicklichkeits-Parcours für Roblox
 
 Ein Parkour-Spiel hoch über einem Lavasee. Der ganze Parcours wird beim Spielstart
 **per Skript gebaut** – du musst in Roblox Studio nichts von Hand bauen.
